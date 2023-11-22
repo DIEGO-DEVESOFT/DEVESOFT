@@ -1,3 +1,4 @@
+<!-- Esta es la clase de la pregunta cuando el campo en la tabla de datos es autoincrementable se define aca la variable -->
 <?php 
 class Pregunta{
     # Atributos
