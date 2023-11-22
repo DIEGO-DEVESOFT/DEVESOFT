@@ -1,4 +1,4 @@
-<?php session_start();
+<?php 
     require_once "models/Pregunta.php";
     class Landing{
         public function __construct(){}
