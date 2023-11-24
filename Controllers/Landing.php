@@ -4,6 +4,7 @@
         public function __construct(){}
         public function index(){
             if ($_SERVER['REQUEST_METHOD'] == 'GET') {
+                echo "<script>alert ('MENSAJE ENVIADO')</script>";
                 require_once "views/Company/header.view.php";
                 require_once "views/Company/index.view.php";  
                 require_once "views/Company/footer.view.php";
